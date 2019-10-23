@@ -1,32 +1,48 @@
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <ul>
-       <li><a href="mainho.html">My portfolio</a></li>
-    <li><a href="netart/index.html">My website</a></li>
-        <li><a href="glitch.html">Glitch art</a></li>
-            <li><a href="meme.html">Meme</a></li>
-                <li><a href="minecrafta.html">Minecraft art</a></li>
-                    <li><a href="3dprint.html">3d print project</a></li>
-                    </ul>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
+li {
+  float: left;
+}
 
-  <title>Bootstrap 4 Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
 </head>
 <body>
 
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="website.html">website</a></li>
+  <li><a href="glitch.html">glitch</a></li>
+  <li><a href="meme.html">meme</a></li>
+  <li><a href="minecrafta.html">minecrafta</a></li>
+  <li><a href="3dprint.html">3dprint</a></li>
+</ul>
+	<img src="glitch.jpg" class="rounded img-fluid" alt="screenshot">
 
-<div class="container-fluid">
-  <h1>glitch  </h1>
-  <p>This is some text.</p>
-  <img class="img-fluid" src="glitch.jpg">
-</div>
+<p>
+  glitch project
+</p>
+	
 
 </body>
 </html>
